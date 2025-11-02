@@ -61,4 +61,9 @@ The output video displays:
 - YOLOv8x from Ultralytics
 - Tracker: ByteTrack
 
+---
+
+## 👥 Authors
+- [Hana Alaa](https://github.com/Hana-Alaa)
+
 
