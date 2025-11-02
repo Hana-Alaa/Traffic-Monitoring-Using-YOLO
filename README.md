@@ -25,12 +25,12 @@ pip install ultralytics torch opencv-python
 ```
 Traffic-Monitoring-using-YOLO/
 │
-├── vehicle_detection.py      # Main script (your code)
+├── vehicle_detection.py      # Main script (code)
 ├── videos/                   # Input videos
 │   └── test1.mp4
 ├── vehicle_count_speed.mp4   # Output video
 ├── README.md                 # Project documentation
-└── requirements.txt          # Optional: list of dependencies
+└── requirements.txt          # list of dependencies
 ```
 
 ---
