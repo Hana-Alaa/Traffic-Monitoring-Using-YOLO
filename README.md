@@ -19,8 +19,9 @@ Install the dependencies:
 ```bash
 pip install ultralytics torch opencv-python
 ```
+---
 
-📂 Project Structure
+## 📂 Project Structure
 ```
 Traffic-Monitoring-using-YOLO/
 │
@@ -32,8 +33,9 @@ Traffic-Monitoring-using-YOLO/
 └── requirements.txt          # Optional: list of dependencies
 ```
 
-Usage
+---
 
+## Usage
 1. Place your input video inside the videos/ folder.
 2. Run the script:
 ```
@@ -44,14 +46,18 @@ python vehicle_detection.py
 vehicle_count_speed.mp4
 ```
 
-Output Example
+---
+
+## Output Example
 
 The output video displays:
 - Bounding boxes around vehicles
 - Object ID, type, and estimated speed (in km/h)
 - Count of vehicles moving up and down
+- 
+---
 
-Model
+## Model
 - YOLOv8x from Ultralytics
 - Tracker: ByteTrack
 
