@@ -63,7 +63,7 @@ The output video displays:
 
 ---
 
-## 👥 Authors
+## Authors
 - [Hana Alaa](https://github.com/Hana-Alaa)
 
 
