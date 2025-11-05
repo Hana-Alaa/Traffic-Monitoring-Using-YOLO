@@ -1,14 +1,13 @@
 #  Traffic Monitoring Using YOLO
 
 A simple real-time project that detects, tracks, and counts vehicles using **YOLOv8**.  
-It identifies different vehicle types (cars, buses, trucks, motorcycles, etc.), counts how many pass in each direction, and estimates their speeds from video footage.  
+It identifies different vehicle types (cars, buses, trucks, motorcycles, etc.) and counts how many pass in each direction.  
 
 ---
 
 ## Features  
 - Vehicle detection using **YOLOv8x** pretrained model  
 - Real-time **tracking** with ByteTrack  
-- **Speed estimation** based on object movement  
 - **Counting** vehicles moving up and down  
 - Supports video input and saves annotated output  
 
@@ -25,10 +24,10 @@ pip install ultralytics torch opencv-python
 ```
 Traffic-Monitoring-using-YOLO/
 │
-├── vehicle_detection.py      # Main script (code)
+├── vehicle_tracking.py      # Main script (code)
 ├── videos/                   # Input videos
 │   └── test1.mp4
-├── vehicle_count_speed.mp4   # Output video
+├── vehicle_count.mp4   # Output video
 ├── README.md                 # Project documentation
 └── requirements.txt          # list of dependencies
 ```
@@ -39,11 +38,11 @@ Traffic-Monitoring-using-YOLO/
 1. Place your input video inside the videos/ folder.
 2. Run the script:
 ```
-python vehicle_detection.py
+python vehicle_tracking.py
 ```
 3. The processed video will be saved as:
 ```
-vehicle_count_speed.mp4
+vehicle_count.mp4
 ```
 
 ---
@@ -52,7 +51,7 @@ vehicle_count_speed.mp4
 
 The output video displays:
 - Bounding boxes around vehicles
-- Object ID, type, and estimated speed (in km/h)
+- Object ID, type and count
 - Count of vehicles moving up and down
 - 
 ---
