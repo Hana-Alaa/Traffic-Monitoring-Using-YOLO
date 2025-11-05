@@ -24,7 +24,7 @@ pip install ultralytics torch opencv-python
 ```
 Traffic-Monitoring-using-YOLO/
 │
-├── vehicle_tracking.py      # Main script (code)
+├── vehicle_detection.py      # Main script (code)
 ├── videos/                   # Input videos
 │   └── test1.mp4
 ├── vehicle_count.mp4   # Output video
@@ -38,7 +38,7 @@ Traffic-Monitoring-using-YOLO/
 1. Place your input video inside the videos/ folder.
 2. Run the script:
 ```
-python vehicle_tracking.py
+python vehicle_detection.py
 ```
 3. The processed video will be saved as:
 ```
