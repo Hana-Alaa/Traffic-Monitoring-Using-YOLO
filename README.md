@@ -64,8 +64,5 @@ The output video displays:
 ---
 
 ## Authors
-- [Hana Alaa]
-- [Esraa Elfar]
-  (https://github.com/Hana-Alaa)
-
-
+- [Hana Alaa](https://github.com/Hana-Alaa)
+- [Esraa Elfar](https://github.com/esraaelfar)
